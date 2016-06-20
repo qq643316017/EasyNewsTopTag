@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1FC8D51C1D13FA600087670C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D51B1D13FA600087670C /* main.m */; };
 		1FC8D51F1D13FA600087670C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D51E1D13FA600087670C /* AppDelegate.m */; };
-		1FC8D5221D13FA600087670C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D5211D13FA600087670C /* ViewController.m */; };
-		1FC8D5251D13FA600087670C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D5231D13FA600087670C /* Main.storyboard */; };
 		1FC8D5271D13FA600087670C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D5261D13FA600087670C /* Assets.xcassets */; };
 		1FC8D52A1D13FA600087670C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D5281D13FA600087670C /* LaunchScreen.storyboard */; };
+		1FC8D5341D13FB290087670C /* EasyNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D5321D13FB290087670C /* EasyNewsViewController.m */; };
+		1FC8D5351D13FB290087670C /* EasyNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D5331D13FB290087670C /* EasyNewsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		1FC8D51B1D13FA600087670C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC8D51D1D13FA600087670C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FC8D51E1D13FA600087670C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FC8D5201D13FA600087670C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FC8D5211D13FA600087670C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1FC8D5241D13FA600087670C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FC8D5261D13FA600087670C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC8D5291D13FA600087670C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FC8D52B1D13FA600087670C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC8D5311D13FB290087670C /* EasyNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNewsViewController.h; sourceTree = "<group>"; };
+		1FC8D5321D13FB290087670C /* EasyNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNewsViewController.m; sourceTree = "<group>"; };
+		1FC8D5331D13FB290087670C /* EasyNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EasyNewsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				1FC8D51D1D13FA600087670C /* AppDelegate.h */,
 				1FC8D51E1D13FA600087670C /* AppDelegate.m */,
-				1FC8D5201D13FA600087670C /* ViewController.h */,
-				1FC8D5211D13FA600087670C /* ViewController.m */,
-				1FC8D5231D13FA600087670C /* Main.storyboard */,
+				1FC8D5311D13FB290087670C /* EasyNewsViewController.h */,
+				1FC8D5321D13FB290087670C /* EasyNewsViewController.m */,
+				1FC8D5331D13FB290087670C /* EasyNewsViewController.xib */,
 				1FC8D5261D13FA600087670C /* Assets.xcassets */,
 				1FC8D5281D13FA600087670C /* LaunchScreen.storyboard */,
 				1FC8D52B1D13FA600087670C /* Info.plist */,
@@ -137,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC8D52A1D13FA600087670C /* LaunchScreen.storyboard in Resources */,
+				1FC8D5351D13FB290087670C /* EasyNewsViewController.xib in Resources */,
 				1FC8D5271D13FA600087670C /* Assets.xcassets in Resources */,
-				1FC8D5251D13FA600087670C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC8D5221D13FA600087670C /* ViewController.m in Sources */,
+				1FC8D5341D13FB290087670C /* EasyNewsViewController.m in Sources */,
 				1FC8D51F1D13FA600087670C /* AppDelegate.m in Sources */,
 				1FC8D51C1D13FA600087670C /* main.m in Sources */,
 			);
@@ -158,14 +158,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FC8D5231D13FA600087670C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FC8D5241D13FA600087670C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FC8D5281D13FA600087670C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,9 +254,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EasyNewsTopTag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuzhitx.EasyNewsTopTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -273,9 +267,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EasyNewsTopTag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuzhitx.EasyNewsTopTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

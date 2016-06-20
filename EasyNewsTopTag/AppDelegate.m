@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EasyNewsViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    EasyNewsViewController *easyNewsVC = [[EasyNewsViewController alloc] init];
+    UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:easyNewsVC];
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

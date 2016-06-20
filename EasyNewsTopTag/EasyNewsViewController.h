@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EasyNewsViewController.h
 //  EasyNewsTopTag
 //
 //  Created by 陈微 on 16/6/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EasyNewsViewController : UIViewController
 
 @end
-
